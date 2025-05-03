@@ -1,0 +1,17 @@
+{
+    "firstName":"nobody",
+    "lastName" : "shrestha",
+    "hobbies": ["running", "reading", "gaming","singing"],
+    "age" : 22,
+    "hasChildren": true,
+    "children":[
+        {
+            "firstname": "chrish",
+            "age":5
+        },
+        {
+            "firstname": "abby",
+            "age":3
+        }
+    ]
+}

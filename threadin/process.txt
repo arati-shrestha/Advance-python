@@ -1,0 +1,13 @@
+Process: An instance of a program(e.g python interpreter)
+
++Takes advantage of multiple CPUs and cores
++Separate memory space -> memory is not shared between processes
++Great for CPU-bound processing 
++New process is stated independently from other processes 
++Processes are interruptable/killable
++One GIL for each process -> avoids GIL(Global interpreter lock) limitation
+
+-heavyweight
+-starting a process is slower than starting a thread
+-more memory 
+-IPC(Inter process communication)is more complicated
